@@ -1,0 +1,12 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "app/api/webhook/github/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/agent/coordinate/route.ts": {
+      "maxDuration": 25
+    }
+  },
+  "crons": []
+}
